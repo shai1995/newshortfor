@@ -7,7 +7,7 @@ Make short link by using [pdiskshortforyou](https://pdiskshortforyou.tech) API k
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Pdiskbot/pdiskshortforyou)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Trydisk/newshortfor)
 
 ##### Required Variables
 
