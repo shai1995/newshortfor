@@ -1,21 +1,20 @@
-# newshortfor
-Make short link by using pdiskshortforyou API key
+# newshortfor-bot
 
+Make short link by using [pdiskshortforyou](https://pdiskshortforyou.tech) API key
+### Join Our Channel on telegram 
+[@akmnph] for bot
+### Installation
 
+#### The Easy Way
 
-Installation
-The Easy Way
-Deploy
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Pdiskbot/pdiskshortforyou)
 
-Required Variables
-BOT_TOKEN: Create a bot using @BotFather, and get the Telegram API token.
+##### Required Variables
 
-API_ID: Get this value from telgram.org
+* `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 
-API_HASH: Get this value from telgram.org
-
-API_KEY: Create pdiskshortforyou account then get this value from pdiskshortforyou API
-
-CHANNEL: Your Backup channel link
-
-HOWTO: Your "How to Download from pdiskshortforyou" video link
+* `API_ID`: Get this value from [telgram.org](https://my.telegram.org/apps)
+* `API_HASH`: Get this value from [telgram.org](https://my.telegram.org/apps)
+* `API_KEY`: Create [pdiskshortforyou](https://pdiskshortforyou.tech) account then get this value from [pdiskshortforyou API](https://pdiskshortforyou.tech/member/tools/api)
+* `CHANNEL`: Your Backup channel link
+* `HOWTO`: Your "How to Download from pdiskshortforyou" video link
