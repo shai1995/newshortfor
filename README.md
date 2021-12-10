@@ -2,7 +2,7 @@
 
 Make short link by using [pdiskshortforyou](https://pdiskshortforyou.tech) API key
 ### Join Our Channel on telegram 
-[@akmnph] for bot
+[@akmnph](t.me/hornyworld22) for bot
 ### Installation
 
 #### The Easy Way
