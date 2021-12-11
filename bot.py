@@ -27,19 +27,19 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm pdiskshortforyou bot. Just send me link and get short link made by @mrpunisher52 and @hornyworld22")
+        "I'm pdiskshortforyou bot. Just send me link and get short link made by @Akmnph")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all doodstream links with your doodstream links. dm me @mrpunisher52 For more help-**")
+        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all doodstream links with your url shotner link contact @Akmnph**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @mrpunisher52 or for more join @hornyworld22**")
+        "**please contact me on @Akmnph")
     
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
