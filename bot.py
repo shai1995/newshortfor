@@ -27,13 +27,13 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm droplink bot. Just send me link and get short link made by @mrpunisher52")
+        "I'm pdiskshortforyou bot. Just send me link and get short link made by @mrpunisher52 and @hornyworld22")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all pdisk links with your pdisk links \nMessage me @mrpunisher52 For more help-**")
+        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all doodstream links with your doodstream links. dm me @mrpunisher52 For more help-**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
@@ -113,10 +113,7 @@ async def multi_pdisk_up(ml_string):
     new_string = " ".join(new_ml_string)
     return await addFooter(new_string)
     return (new_string)
-  
-  new_string = " ".join(new_ml_string)
-    return await addFooter(new_string)
-    return (new_string)
+ 
 
 async def new_pdisk_url(urls):
     new_urls = []
@@ -133,14 +130,10 @@ async def remove_username(new_List):
   
 async def addFooter(str):
     footer = """
-   ━━━━━━━━━━━━━━━
-⚙️ How to Download / Watch Online :""" + HOWTO
-   
-   return str + footer
-
-  async def addFooter(str):
-  footer = """
-⭐️ Create shotner bot ➡️ :""" + CREATEME
     
-     return str + footer
+   ━━━━━━━━━━━━━━━
+  ⚙️ How to Download / Watch Online :""" + HOWTO
+    
+    return str + footer
+   
 bot.run()
