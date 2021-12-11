@@ -24,13 +24,9 @@
             "description": "https://pdiskshortforyou.tech/member/tools/api",
             "value": ""
         },
-        "CREATEME": {
-            "description": "DO NOT EDIT IT",
-            "value": "https://youtube.com/shorts/xfkLnAdjoNw?feature=share"
-        },
-        "HOWTO": {
-            "description": "Your 'How to Download from pdiskshortforyou' video link",
-            "value": "https://youtube.com/shorts/xfkLnAdjoNw?feature=share"
+        "CHANNEL": {
+            "description": "Enter your telegram channel Username (must change and without @)",
+            "value": "hornyworld22"
         }
         },
         
