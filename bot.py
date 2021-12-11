@@ -130,9 +130,8 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
- HOW TO PLAY/DOWNLOAD VIDEO -
- https://youtube.com/shorts/xfkLnAdjoNw?feature=share
- 
+ HOW TO PLAY/DOWNLOAD VIDEO - 
+ https://bit.ly/3rX8VH9
  CREATE URL SHOTNER BOT(CONTACT)- @Akmnph       
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
