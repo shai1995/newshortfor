@@ -135,7 +135,7 @@ async def addFooter(str):
     footer = """
    ━━━━━━━━━━━━━━━
 ⚙️ How to Download / Watch Online :""" + HOWTO
-    Create Bot-- https://youtube.com/shorts/xfkLnAdjoNw?feature=share
+   
    return str + footer
 
   async def addFooter(str):
