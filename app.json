@@ -27,8 +27,8 @@
         "CHANNEL": {
             "description": "Enter your telegram channel Username (must change and without @)",
             "value": "hornyworld22"
-        }
-        },
+               }
+    },
         
     "addons": [],
     "buildpacks": [
