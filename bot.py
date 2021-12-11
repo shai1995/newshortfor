@@ -140,7 +140,7 @@ async def addFooter(str):
 
   async def addFooter(str):
   footer = """
-⭐️ Create shotner bot ➡️  CREATEME
+⭐️ Create shotner bot ➡️ :""" + CREATEME
     
      return str + footer
 bot.run()
