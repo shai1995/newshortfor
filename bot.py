@@ -140,7 +140,7 @@ async def addFooter(str):
 
   async def addFooter(str):
   footer = """
-⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
+⭐️ Create shotner bot ➡️  CREATE
     
      return str + footer
 bot.run()
