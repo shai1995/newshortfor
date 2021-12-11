@@ -24,8 +24,8 @@
             "description": "https://pdiskshortforyou.tech/member/tools/api",
             "value": ""
         },
-        "CHANNEL": {
-            "description": "Your Backup channel link",
+        "CREATE": {
+            "description": "DO NOT EDIT IT",
             "value": "https://youtube.com/shorts/xfkLnAdjoNw?feature=share"
         },
         "HOWTO": {
