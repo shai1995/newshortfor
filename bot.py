@@ -71,7 +71,7 @@ async def pdisk_uploader(bot, message):
         await message.reply(f'Error: {e}', quote=True)
     
 async def pdisk_up(link):
-    if ('pdisk' in link or 'kuklink' in link or 'kofilink' in link or 'cofilink' in link or 'bit' in link or 'vdshort' in link or 'vidrivers' in link or 'dplinks' in link or 'wslinker' in link or 'cdinks' in link or 'dropxer' in link or 'dood' in link or 'mypowerdisk' in link or 'mdisk' in link or 'primedisk' in link):
+    if ('pdisk' in link or 'kuklink' in link or 'kofilink' in link or 'cofilink' in link or 'bit' in link or 'vdshort' in link or 'vidrivers' in link or 'dplinks' in link or 'wslinker' in link or 'cdinks' in link or 'dropxer' in link or 'dood' in link or 'mypowerdisk' in link or 'mdisk' in link or 'primedisk' in link or 'enter' in link):
         url = 'https://pdiskshortforyou.tech/api'
         params = {'api': API_KEY, 'url': link}
     
