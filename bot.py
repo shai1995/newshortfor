@@ -27,19 +27,19 @@ bot = Client('Droplink bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi {message.chat.first_name}!**\n\n"
-        "I'm pdiskshortforyou bot. Just send me link and get short link made by @Akmnph")
+        "I'm pdiskshortforyou bot. Just send me link and get short link made by @SPIDERMAN_007")
 
 @bot.on_message(filters.command('help') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hello, {message.chat.first_name}!**\n\n"
-        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all doodstream links with your url shotner link contact @Akmnph**")
+        "**If you send post which had Pdisk Links, texts & images... Than I'll convert & replace all doodstream links with your url shotner link contact @SPIDERMAN_007**")
 
 @bot.on_message(filters.command('support') & filters.private)
 async def start(bot, message):
     await message.reply(
         f"**Hey, {message.chat.first_name}!**\n\n"
-        "**please contact me on @Akmnph")
+        "**please contact me on @SPIDERMAN_007")
     
 @bot.on_message(filters.text & filters.private)
 async def pdisk_uploader(bot, message):
@@ -71,7 +71,7 @@ async def pdisk_uploader(bot, message):
         await message.reply(f'Error: {e}', quote=True)
     
 async def pdisk_up(link):
-    if ('pdisk' in link or 'kuklink' in link or 'kofilink' in link or 'cofilink' in link or 'bit' in link or 'enter' in link or 'mypower' in link or 'dplinks' in link or 'primedisk' in link or 'mdisk' in link or 'dropxer' in link or 'dood' in link):
+    if ('pdisk' in link or 'kuklink' in link or 'kofilink' in link or 'cofilink' in link or 'bit' in link or 'enter' in link or 'mypower' in link or 'dplinks' in link or 'primedisk' in link or 'mdisk' in link or 'dropxer' in link or 'dood' in link or 'telegra.ph' in link):
         url = 'http://shrinkforearn.in/api'
         params = {'api': API_KEY, 'url': link}
     
@@ -130,9 +130,7 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
- HOW TO PLAY/DOWNLOAD VIDEO - 
- https://bit.ly/3rX8VH9
- CREATE URL SHOTNER BOT(CONTACT)- @Akmnph       
+        
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ⭐️JOIN CHANNEL ➡️ t.me/""" + CHANNEL
     return str + footer
